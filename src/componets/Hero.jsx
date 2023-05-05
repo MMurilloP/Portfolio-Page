@@ -1,10 +1,17 @@
 import React from 'react'
+import Navbar from './Navbar'
+import styled from 'styled-components'
+
+const Section = styled.div`
+  height: 100vh;
+  scroll-snap-align: center;
+`
 
 const Hero = () => {
   return (
-    <div>
-      <h1>Hero</h1>
-    </div>
+    <Section >
+        <Navbar/> 
+    </Section>
   )
 }
 

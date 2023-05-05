@@ -1,24 +1,31 @@
-import Contact from "./componets/Contact"
-import Hero from "./componets/Hero"
-import Who from "./componets/Who"
-import Works from "./componets/Works"
+import styled from "styled-components";
+import Contact from "./componets/Contact";
+import Hero from "./componets/Hero";
+import Who from "./componets/Who";
+import Works from "./componets/Works";
 
-import './App.css'
-
-
-
+const Container = styled.div`
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+  color: white;
+  background: url("https://cdn.pixabay.com/photo/2015/10/15/21/05/texture-990067_1280.jpg");
+`
 
 function App() {
-
   return (
-    <div className="app-container">
-      <h1>Hola</h1>
-      <Hero/>
-      <Who/>
-      <Works/>
-      <Contact/>
-    </div>
-  )
+    <Container>
+      <Hero />
+      <Who />
+      <Works />
+      <Contact />
+    </Container>
+  );
 }
 
-export default App
+export default App;
