@@ -21,6 +21,10 @@ const Left = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 const Title = styled.h1`
@@ -32,18 +36,22 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 25px;
+
+  @media only screen and (max-width: 768px) {
+    width: 300px;
+  }
 `;
 
 const Input = styled.input`
   padding: 20px;
-  background-color: #e8e6e6;
+  background-color: #f4a996;
   border: none;
   border-radius: 5px;
 `;
 
 const TextArea = styled.textarea`
   padding: 20px;
-  background-color: #e8e6e6;
+  background-color: #f4a996;
   border: none;
   border-radius: 5px;
 `;
@@ -61,6 +69,10 @@ const Button = styled.button`
 
 const Right = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const Contact = () => {

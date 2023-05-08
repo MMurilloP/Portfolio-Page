@@ -20,8 +20,8 @@ const Map = () => {
     >
       <Geographies
         geography="/features.json"
-        fill="#a3b18a"
-        stroke="#FFFFFF"
+        fill="#350946"
+        stroke="white"
         strokeWidth={0.5}
       >
         {({ geographies }) =>
@@ -40,7 +40,7 @@ const Map = () => {
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
+        <text x="-15" textAnchor="end" alignmentBaseline="middle" fill="#e76f51">
           {"Madrid"}
         </text>
       </Annotation>

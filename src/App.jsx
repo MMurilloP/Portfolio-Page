@@ -15,8 +15,8 @@ const Container = styled.div`
   &::-webkit-scrollbar{
     display: none;
   }
-  color: white;
-  background: url("https://cdn.pixabay.com/photo/2015/10/15/21/05/texture-990067_1280.jpg");
+  color: #e76f51;
+  /* background: url("https://cdn.pixabay.com/photo/2015/10/15/21/05/texture-990067_1280.jpg"); */
 `
 
 function App() {
