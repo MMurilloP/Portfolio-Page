@@ -47,6 +47,7 @@ const Left = styled.div`
   @media only screen and (max-width: 768px) {
     flex: 1;
     align-items: center;
+    margin-bottom: -500px;
   }
 `;
 const Title = styled.h1`
@@ -93,6 +94,8 @@ const Right = styled.div`
   @media only screen and (max-width: 768px) {
     flex: 1;
     width: 100%;
+    margin-bottom: -500px;
+
   }
 `;
 const Img = styled.img`
