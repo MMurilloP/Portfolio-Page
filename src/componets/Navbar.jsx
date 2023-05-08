@@ -47,7 +47,7 @@ const Icon = styled.img`
 const Button = styled.button`
     width: 100px;
     padding: 10px;
-    background-color: #da4ea2;
+    background-color: #e76f51;
     color: white;
     border: none;
     border-radius: 5px;

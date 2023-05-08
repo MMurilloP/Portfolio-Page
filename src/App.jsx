@@ -6,6 +6,8 @@ import Works from "./componets/Works";
 
 const Container = styled.div`
   height: 100vh;
+  padding-left: 10%;
+  padding-right: 10%;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
